@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>T0rlib4j</name>
-    <url>https://jitpack.io/#l16h7n1n6s/teset/2.0.1</url>
+    <url>https://jitpack.io/#PanagiotisDrakatos/T0rlib4j/2.0.1</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
