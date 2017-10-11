@@ -134,7 +134,7 @@ public abstract class OnionProxyManager {
         }
 
         // This returns a set of space delimited quoted strings which could be Ipv4, Ipv6 or unix sockets
-        String[] socksIpPorts = controlConnection.getInfo("net/listeners/socks").split(" ");
+        String[] socksIpPorts = controlConnection.getInfo("net/sf/T0rlib4j/listeners/socks").split(" ");
 
         for (String address : socksIpPorts) {
             if (address.contains("\"127.0.0.1:")) {
