@@ -4,6 +4,7 @@ import com.msopentech.thali.java.toronionproxy.JavaOnionProxyContext;
 import com.msopentech.thali.java.toronionproxy.JavaOnionProxyManager;
 import com.msopentech.thali.java.toronionproxy.OnionProxyManager;
 import com.msopentech.thali.java.toronionproxy.Utilities;
+import net.sf.T0rlib4j.controller.network.JavaTorRelay;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +27,7 @@ public class TorClientSocks4 {
         // Start a hidden service listener
         int hiddenServicePort = 80;
         int localPort = onionProxyManager.getIPv4LocalHostSocksPort();
-        String OnionAdress = "blablabla.onion";
+        String OnionAdress = "356ajva22qp7lhuw.onion";
 
 
         Socket clientSocket = Utilities.socks4aSocketConnection(OnionAdress, hiddenServicePort, "127.0.0.1", localPort);
