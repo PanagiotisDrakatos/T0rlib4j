@@ -70,7 +70,7 @@ abstract public class OnionProxyContext {
             case LINUX_64:
             case MAC:
                 FileUtilities.extractContentFromZip(getWorkingDirectory(),
-                        getClass().getResourceAsStream("tor.zip"));
+                        getClass().getResourceAsStream("/tor.zip"));
                 break;
             default:
                 throw new RuntimeException("We don't support Tor on this OS yet");
