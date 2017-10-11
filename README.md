@@ -10,13 +10,14 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Build Status](https://travis-ci.org/PanagiotisDrakatos/T0rlib4j.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/T0rlib4j)
+[![](https://jitpack.io/v/PanagiotisDrakatos/T0rlib4j.svg)](https://jitpack.io/#PanagiotisDrakatos/T0rlib4j)
 [![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/T0rlib4j.svg)](https://github.com/PanagiotisDrakatos/EasyDragDrop/issues)
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/T0rlib4j.svg)](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop/pull_requests)
 
 
 # Basic Overview
-T0rlib4j is a Java controller library for Tor. With it you can use Tor's control protocol to communicate against the Tor process, or build things such as arm. T0rlib4j latest version is 2.0.1 (released October 7rd, 2017).
+T0rlib4j is a Java controller library for Tor. With it you can use Tor's control protocol to communicate against the Tor process, or build things such as arm. T0rlib4j latest version is 1.0.1 (released October 11rd, 2017).
 
 In addition, this library simulates and tends to look like a classic messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate via tor network, without being monitored or blocked by their mobile internet service provider.To sum up the main goal is to protect users and their relationships from surveillance by having the ability to transparently torify all of the TCP traffic on your Java Programm.
 
@@ -48,9 +49,9 @@ To use it in your Maven build simply add:
 Then go to dependencies and put the following dependency:
 ```xml
 <dependency>
-	 <groupId>com.github.PanagiotisDrakatos</groupId>
-	 <artifactId>T0rlib4j</artifactId>
-	 <version>2.0.1</version>
+	    <groupId>com.github.PanagiotisDrakatos</groupId>
+	    <artifactId>T0rlib4j</artifactId>
+	    <version>v1.0.1</version>
 </dependency>
 ```
 
@@ -202,7 +203,7 @@ And of course an endless amount of gratitude to the heroes of the Tor project fo
 # FAQ
 
 ## What is the maturity of the code in this project?
-Well the release version is currently 2.0.1 so that should say something. This is an alpha. We have (literally) one test. Obviously we need a heck of a lot more coverage. But we have run that test and it does actually work which means that the Tor OP is being run and is available.
+Well the release version is currently 1.0.1 so that should say something. This is an alpha. We have (literally) one test. Obviously we need a heck of a lot more coverage. But we have run that test and it does actually work which means that the Tor OP is being run and is available.
 
 
 ## Where does jtorctl-briar.jar come from?
