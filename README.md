@@ -11,9 +11,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Build Status](https://travis-ci.org/PanagiotisDrakatos/T0rlib4j.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/T0rlib4j)
 [![](https://jitpack.io/v/PanagiotisDrakatos/T0rlib4j.svg)](https://jitpack.io/#PanagiotisDrakatos/T0rlib4j)
-[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/T0rlib4j.svg)](https://github.com/PanagiotisDrakatos/EasyDragDrop/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/T0rlib4j.svg)](https://github.com/PanagiotisDrakatos/T0rlib4j/issues)
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/T0rlib4j.svg)](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop/pull_requests)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/T0rlib4j.svg)](https://travis-ci.org/PanagiotisDrakatos/T0rlib4j/pull_requests)
 
 
 # Basic Overview
