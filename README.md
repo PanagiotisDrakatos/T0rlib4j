@@ -51,7 +51,7 @@ Then go to dependencies and put the following dependency:
 <dependency>
 	    <groupId>com.github.PanagiotisDrakatos</groupId>
 	    <artifactId>T0rlib4j</artifactId>
-	    <version>v1.0.1</version>
+	    <version>1.0.2</version>
 </dependency>
 ```
 
