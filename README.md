@@ -56,7 +56,7 @@ Then go to dependencies and put the following dependency:
 ```
 
 
-:disappointed_relieved: O!! Wait a minute you dont know what is maven? and pom.xml? It doesn't matter, just simple add this <a href="https://github.com/PanagiotisDrakatos/T0rlib4j/releases/tag/v1.0.1"> T0rlib4j-v1.0.1-jar-with-dependencies </a> in your project and you will be ready to use the library. By the way, if you have the time and want to learn how you can create a more efficient java project structure just like maven,gradle,etc don't hesitate to navigate here and start gain knowledge <a href="https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html"> How to Setup maven project </a>.
+:disappointed_relieved: O!! Wait a minute you dont know what is maven? and pom.xml? It doesn't matter, just simple add this <a href="https://github.com/PanagiotisDrakatos/T0rlib4j/releases/tag/1.0.2"> T0rlib4j-v1.0.2-jar-with-dependencies </a> in your project and you will be ready to use the library. By the way, if you have the time and want to learn how you can create a more efficient java project structure just like maven,gradle,etc don't hesitate to navigate here and start gain knowledge <a href="https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html"> How to Setup maven project </a>.
 
 # Java
 
