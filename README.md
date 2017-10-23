@@ -30,6 +30,7 @@ Well, to begin with, T0rlib4j  have all you need to connect  to hiddenservices i
  * This java library  is well designed and fully updated than every other java library for tor implementation by far
  * It is really easy to use you. The only thing to do is to include the dependency and you are ready to write some sample code to get you started [How to Start](#java).
  * The project will try to stay full updated with the latest tor patches <a href="https://www.torproject.org/download/download.html.en">tor-win32-0.3.1.7</a>.
+ * They may make it harder for your ISP or anyone else to track your activities. For more info click <a href="https://github.com/PanagiotisDrakatos/T0rlib4j/wiki/How-Online-Anonymity-is-preserved-in-combination-with-Tor"> here</a>.
  * It is free and open source and is intended to be used by any programmer who wants a messaging app via tor.
 
  
