@@ -65,12 +65,18 @@ abstract public class OnionProxyContext {
                         getAssetOrResourceByName(getPathToTorExecutable() + getTorExecutableFileName()),
                         torExecutableFile);
                 break;
-            case WINDOWS:
-            case LINUX_32:
-            case LINUX_64:
+            case WINDOWS: FileUtilities.extractContentFromZip(getWorkingDirectory(),
+                    getClass().getResourceAsStream("/native/windows/x86/tor.zip"));
+                    break;
+            case LINUX_32: FileUtilities.extractContentFromZip(getWorkingDirectory(),
+                    getClass().getResourceAsStream("/native/linux/x86/tor.zip"));
+                    break;
+            case LINUX_64: FileUtilities.extractContentFromZip(getWorkingDirectory(),
+                    getClass().getResourceAsStream("/native/linux/x64/tor.zip"));
+                    break;
             case MAC:
                 FileUtilities.extractContentFromZip(getWorkingDirectory(),
-                        getClass().getResourceAsStream("/tor.zip"));
+                        getClass().getResourceAsStream("/native/osx/x64/tor.zip"));
                 break;
             default:
                 throw new RuntimeException("We don't support Tor on this OS yet");
