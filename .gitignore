@@ -11,4 +11,4 @@ torfiles/
 hs_err_pid*
 
 #IDE specific files
-.idea
+.idea/
