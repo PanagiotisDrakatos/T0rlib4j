@@ -142,7 +142,7 @@ public class ServerSocketViaTor {
 ```
 ## How do I connect to Tor?
 
-Once you have Tor running and properly configured you have a few ways of connecting to it. TThe following is one of the most common method for getting a Controller instance, from the highest to lowest level which library supports.
+Once you have Tor running and properly configured you have a few ways of connecting to it. The following is one of the most common method for getting a Controller instance, from the highest to lowest level which library supports.
 
   * <b>Socket Module:</b> You can skip the conveniences of a high level Controller and work directly with the raw components.  At T0rlib4j lowest level your connection with Tor is a socks4aSocketConnection-socks5aSocketConnection subclass and for the Server socket TorServerSocket subclass. This provides methods to send, receive, disconnect, and reconnect to Tor.
  
